@@ -1,0 +1,26 @@
+div.gallery {
+    margin: 6px;
+    border: 4px solid #ccc;
+    float: left;
+    min-width: 47vw;
+    min-height: 17vh;
+}
+
+div.gallery:hover {
+    border: 4px solid #777;
+}
+
+.column {
+    width: 50%;
+    float: right;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
